@@ -3,8 +3,6 @@ import React from "react";
 
 // Components
 import Loader from "calcite-react/Loader";
-import background from "../styles/images/Topo-Abs-BG.svg";
-// import logo from "../styles/images/logo.png";
 
 // Styled & Motion Components
 import styled from "styled-components";
@@ -14,7 +12,7 @@ const Container = styled.div`
   position: absolute;
   height: 100%;
   width: 100%;
-  background: rgba(255, 255, 255, 0.1) url(${background}) no-repeat center/cover;
+  background: rgba(255, 255, 255, 0.1) url() no-repeat center/cover;
   background-blend-mode: screen;
 `;
 
