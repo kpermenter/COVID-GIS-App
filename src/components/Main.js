@@ -9,7 +9,6 @@ import { mapLoaded } from "../redux/reducers/map";
 import Map from "./esri/map/Map";
 import LoadScreen from "./LoadScreen";
 import Nav from "./Nav";
-
 import "../styles/index.css"
 
 // Styled Components
@@ -41,8 +40,7 @@ const Main = props => {
   return (
     <Container>
       <LoadScreen isLoading={!isMapLoaded} />
-      <Nav>
-      </Nav>
+      <Nav></Nav>
       <MapWrapper>
         <Map onMapLoaded={mapLoaded} mapConfig={config.mapConfig} />
         </MapWrapper>
@@ -51,6 +49,3 @@ const Main = props => {
 };
 
 export default Main;
-
-
-
