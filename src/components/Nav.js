@@ -14,13 +14,6 @@ import { useSelector, useDispatch } from "react-redux";
 import styled from "styled-components";
 import "../styles/index.css"
 
-// const Logo = styled(TopNavBrand)`
-//   justify-content: center;
-//   & img {
-//     height: 55px;
-//   }
-// `;
-
 const Nav = styled(TopNav)`
   && {
     z-index: 5;
@@ -39,7 +32,6 @@ const Navbar = props => {
 
   return (
       <Nav>
-        {/* <Logo href="#" src={logo} /> */}
         <TopNavTitle>COVID-19 Tracker</TopNavTitle>
         <NavList>
           {/* <TopNavLink href="">
