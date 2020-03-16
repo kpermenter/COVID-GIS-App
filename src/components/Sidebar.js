@@ -19,7 +19,7 @@ class Sidebar extends Component {
             theme='dark'
             options={{ height: 350 }}
           />
-                    <TwitterTimelineEmbed
+            <TwitterTimelineEmbed
             sourceType="profile"
             screenName="WHO"
             theme='dark'
@@ -32,26 +32,3 @@ class Sidebar extends Component {
 }
 
 export default Sidebar;
-
-// // React imports
-// import React, { Component } from 'react';
-
-// import SideNav, {
-//     SideNavTitle,
-//     SideNavLink
-//   } from 'calcite-react/SideNav'
-
-
-// class Sidebar extends Component {
-//   render() {
-//     return (
-//       <div>
-//             <SideNav>
-//             <SideNavTitle>Twitter</SideNavTitle>
-//             </SideNav>
-//       </div>
-//     );
-//   }
-// }
-
-// export default Sidebar;
