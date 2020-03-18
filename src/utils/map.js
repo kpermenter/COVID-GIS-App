@@ -143,7 +143,7 @@ export function loadMap(element, mapOptions) {
         style: "classic"
       }),
       view: view,
-      expanded: true
+      expanded: false
     });
 
     view.ui.add(legend, "top-left");
