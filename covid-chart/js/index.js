@@ -1,8 +1,8 @@
 require([
   "esri/WebMap",
   "esri/views/MapView",
-  'esri/layers/FeatureLayer', 'esri/widgets/Legend', 'esri/widgets/Expand'
-], function (Map, MapView, FeatureLayer, Legend, Expand) {
+  'esri/layers/FeatureLayer', 'esri/widgets/Legend', 'esri/widgets/Expand', "esri/widgets/Feature"
+], function (Map, MapView, FeatureLayer, Legend, Expand, Feature) {
 
   const map = new Map({
     basemap: 'dark-gray'
@@ -87,7 +87,7 @@ require([
     title: "Confirmed COVID-19 Cases",
     opacity: 0.3,
     outFields: ["Province_State", "Country_Region", "Last_Update", "Confirmed", "Recovered", "Deaths"],
-    popupTemplate: template,
+    // popupTemplate: template,
   });
 
   map.add(featureLayer);
