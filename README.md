@@ -1,4 +1,4 @@
-COVID-19 App: Tracking the global COVID-19 pandemic in real-time using real-time WHO data and ArcGIS JS API
+COVID-19 App: Tracking the global COVID-19 pandemic in real-time using WHO data and ArcGIS JS API
 
 🦠😷🦠😷🦠😷🦠😷🦠😷🦠😷🦠😷🦠😷🦠😷🦠😷🦠😷🦠😷🦠😷🦠😷🦠😷🦠😷🦠😷🦠😷🦠😷🦠
 
